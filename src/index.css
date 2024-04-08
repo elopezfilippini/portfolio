@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --bg-color: hsl(49 37% 94%);
+  --bg-color: hsl(0, 0%, 100%);
   --typewriterSpeed: 1s;
   --typewriterCharacters: 19; 
 }
@@ -12,7 +12,7 @@
   width:0;
   height:0;
   border-right: 100vw solid transparent;
-  border-bottom: 5.9vw solid #475569;
+  border-bottom: 5.9vw solid rgb(2,183,175);
   margin-top: -5.9vw}
 
 body {
@@ -37,7 +37,7 @@ h1 {
 
 
 h2 {
-  font-size: clamp(0.125em, 2rem, 2rem);
+  font-size: clamp(0.125em, 1.5rem, 20px);
   position: relative;
   font-family: "Source Code Pro", monospace;
   
