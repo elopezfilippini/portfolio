@@ -6,15 +6,15 @@ import disney from "../assets/videos/disney.mp4"
 
 function Prueba() {
   return (
-    <div class='w-full   '>
+    <div class='w-full  '>
             <h2 className='text-center bg-custom pb-10'>Mis proyectos:</h2>
-       <div className='bg-custom w-full text-center h-auto flex justify-evenly'>
+            <div class="bg-custom w-full text-center flex flex-wrap justify-center gap-4 pb-10  ">
            
 
 
 
-            <div className='flex flex-col shadow-2xl  '>
-  <div className='flex flex-col  border md:px-16 h-auto w-[400px] border-gray-500 rounded-lg items-center'>
+            <div className='   flex flex-col shadow-2xl  '>
+  <div className=' flex flex-col  border md:px-16 h-auto w-[400px] border-gray-500 rounded-lg items-center'>
     <h2 className='text-center pb-6 py-2'>Dog Api</h2>
     <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
       <video className="opacity-100 rounded-md" src={video} autoPlay loop playsInline muted />

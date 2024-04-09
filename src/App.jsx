@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { FiChevronsDown } from "react-icons/fi";
 import './App.css';
-import Prueba from './components/prueba';
-import Projects from './components/projects';
+import Prueba from './components/Prueba';
+import Projects from './components/Skills';
 import Nav from './components/nav';
 import video from "./assets/videos/video.mp4";
 
@@ -19,12 +19,13 @@ function scrollToSection(event, sectionId) {
 
 function App() {
   return (
-    <div className='w-full'>
-      <div className='items-end'>
-        <Nav/>
+<div class=' m:max-w-none m:w-full l:max-w-none l:w-full 2xl:max-w-none xl:max-w-none xl:w-full'>
+
+      <div className='items-end '>
+        <Nav />
       </div>
       <div className='h-72'></div>
-      <div>
+      <div className=''>
         <div className='inline-block'>
           <h1>Hola, soy Emiliano.</h1>
           <h2 className="subtitle">Fullstack developer</h2>

@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom': 'rgb(2, 183, 175)', // Falta un corchete de cierre después de la definición del color
-      }, // Falta un corchete de cierre después de la extensión de colores
-    }, // Falta un corchete de cierre después de la extensión del tema
-  }}
+        'custom': 'rgb(2, 183, 175)', // Corchete de cierre agregado después de la definición del color
+      } // Corchete de cierre agregado después de la extensión de colores
+    } // Corchete de cierre agregado después de la extensión del tema
+}, // Coma eliminada
+  plugins: [
+    require('tailwindcss-animated')
+  ],
+}
