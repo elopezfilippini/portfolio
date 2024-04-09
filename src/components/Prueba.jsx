@@ -13,9 +13,9 @@ function Prueba() {
 
 
 
-            <div className='flex flex-col '>
+            <div className='flex flex-col shadow-2xl  '>
   <div className='flex flex-col  border md:px-16 h-auto w-[400px] border-gray-500 rounded-lg items-center'>
-    <h2 className='text-center pb-6'>Dog Api</h2>
+    <h2 className='text-center pb-6 py-2'>Dog Api</h2>
     <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
       <video className="opacity-100 rounded-md" src={video} autoPlay loop playsInline muted />
     </div>
@@ -42,7 +42,7 @@ function Prueba() {
 
 <div className='flex flex-col '>
   <div className='flex flex-col  border md:px-16 h-auto w-[400px] border-gray-500 rounded-lg items-center'>
-    <h2 className='text-center pb-6'>Disney Clone</h2>
+    <h2 className='text-center pb-6 py-2'>Disney Clone</h2>
     <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
       <video className="opacity-100 rounded-md" src={disney} autoPlay loop playsInline muted />
     </div>
@@ -65,7 +65,7 @@ function Prueba() {
 
 <div className='flex flex-col '>
   <div className='flex flex-col  border md:px-16 h-auto w-[400px] border-gray-500 rounded-lg items-center'>
-    <h2 className='text-center pb-6'>Artemis Gallery</h2>
+    <h2 className='text-center pb-6 py-2'>Artemis Gallery</h2>
     <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
       <video className="opacity-100 rounded-md" src={artemis} autoPlay loop playsInline muted />
     </div>
@@ -89,7 +89,7 @@ function Prueba() {
 
 <div className='flex flex-col '>
   <div className='flex flex-col  border md:px-16 h-auto w-[400px] border-gray-500 rounded-lg items-center'>
-    <h2 className='text-center pb-6'>Charlie App</h2>
+    <h2 className='text-center pb-6 py-2'>Charlie App</h2>
     <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
       <video className="opacity-100 rounded-md" src={charlie} autoPlay loop playsInline muted />
     </div>
