@@ -5,6 +5,7 @@ import Prueba from './components/Prueba';
 import Projects from './components/Skills';
 import Nav from './components/nav';
 import video from "./assets/videos/video.mp4";
+import Aboutme from './components/Aboutme';
 
 function scrollToSection(event, sectionId) {
   event.preventDefault();
@@ -47,6 +48,7 @@ function App() {
       </section>
       
       <Projects/>
+      <Aboutme/>
     </div>
   );
 }
