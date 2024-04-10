@@ -28,14 +28,14 @@ function App() {
       <div className='h-72'></div>
       <div className=''>
         <div className='inline-block'>
-          <h1>Hola, soy Emiliano.</h1>
+          <h1>Hi, i´m Emiliano.</h1>
           <h2 className="subtitle">Fullstack developer</h2>
           <div className='h-[100px]'></div>
         </div>
-        <div className='flex text-right justify-end text-2xl mr-4'>
+        <div className='animate-shake animate-once animate-delay-[3500ms] animate-ease-linear flex text-right justify-end text-2xl mr-4'>
           {/* Llama a la función scrollToSection con el ID de la sección deseada al hacer clic en el enlace */}
-          <a href="#experience" onClick={(event) => scrollToSection(event, 'experience')}>
-            <FiChevronsDown className='text-5xl' />
+          <a className=' animate-fade animate-once animate-delay-[4000ms] ' href="#experience" onClick={(event) => scrollToSection(event, 'experience')}>
+            <FiChevronsDown className='text-5xl animate-shake animate-once animate-delay-[3500ms] animate-ease-linear' />
           </a>
         </div>
       </div>
