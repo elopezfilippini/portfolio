@@ -15,7 +15,7 @@ import redux from "../assets/icons/redux.png";
 import restfulapi from "../assets/icons/restfulapi.png";
 import sequelize from "../assets/icons/sequelize.png";
 import tailwind from "../assets/icons/tailwind.png";
-
+import { FiChevronsDown } from "react-icons/fi";
 
 
 function projects() {
@@ -26,7 +26,7 @@ function projects() {
   return (
     <div className={`w-full flex flex-col justify-center items-center`}>
       <h3 className='py-8 text-4xl'> Tech Skills </h3>
-      <div className='w-1/2 flex-row justify-center items-center pb-10  animate-pulse animate-ease-linear'>
+      <div className='w-1/2 flex-row justify-center items-center pb-5  animate-pulse animate-ease-linear'>
         <h4>Front End</h4>
         <div className='py-10 flex gap-4 justify-center'>
           <div>
@@ -55,7 +55,7 @@ function projects() {
           </div>
         </div>
       </div>
-      <div className='w-1/2 flex-row justify-center items-center pb-10 animate-pulse animate-ease-linear animate-delay-[1000ms] '>
+      <div className='w-1/2 flex-row justify-center items-center pb-5 animate-pulse animate-ease-linear animate-delay-[1000ms] '>
         <h4>Back End</h4>
         <div className='py-10 flex gap-4 justify-center'>
           <div>
@@ -80,7 +80,7 @@ function projects() {
           </div>
         </div>
       </div>
-      <div className='w-1/2 flex-row justify-center items-center pb-10 animate-pulse animate-ease-linear animate-delay-[1500ms]'>
+      <div className='w-1/2 flex-row justify-center items-center pb-0 animate-pulse animate-ease-linear animate-delay-[1500ms]'>
         <h4>Others</h4>
         <div className='py-10 flex gap-4 justify-center  '>
           <div>
@@ -109,6 +109,7 @@ function projects() {
           </div>
         </div>
       </div>
+   
     </div>
   );
 }

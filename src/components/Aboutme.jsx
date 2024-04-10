@@ -2,7 +2,7 @@ import React from 'react'
 
 function Aboutme() {
   return (
-    <div className=" bg-custom py-3 text" ><h3 className='text-4xl'>More About me</h3>
+    <div className=" bg-custom text" ><h3 className='text-4xl py-5  '>More About me</h3>
     <div>
         <h3 className='text-left pb-2 p-5'>I am Emiliano, a professional with a solid background in the field of business consulting and team management. With over 10 years of experience in this field, I have had the privilege of collaborating with various companies, contributing to achieving their financial and operational goals.
 
