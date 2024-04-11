@@ -8,7 +8,7 @@ import html from "../assets/Icons/html5.png";
 import javascript from "../assets/Icons/javascript.png";
 import mysql from "../assets/Icons/mysql.png";
 import node from "../assets/Icons/node.png";
-import pg from "../assets/icons/pg.png";
+import pg from "../assets/Icons/pg.png";
 import python from "../assets/Icons/python.png";
 import react from "../assets/Icons/react.png";
 import redux from "../assets/Icons/redux.png";
