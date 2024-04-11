@@ -7,6 +7,8 @@ import Nav from './components/Nav';
 import video from "./assets/videos/video.mp4";
 import Aboutme from './components/Aboutme';
 import Skills from './components/Skills';
+import {Contact} from './components/Contact';
+import brain from "./assets/contact/Brain.png"
 
 function scrollToSection(event, sectionId) {
   event.preventDefault();
@@ -28,7 +30,8 @@ function App() {
       </div>
       <div className='h-72'></div>
       <div className=''>
-        <div className='inline-block'>
+        <div className='inline-block items-center'>
+          <img className='animate-flip-up animate-delay-[3500ms] animate-ease-in-out h-14 ' src={brain}></img>
           <h1>Hi, i´m Emiliano.</h1>
           <h2 className="subtitle">Fullstack developer</h2>
           <div className='h-[100px]'></div>
@@ -55,14 +58,25 @@ function App() {
       <section id="skills"> 
         <Skills/>
       </section>
-      <div className=' flex text-center justify-center text-2xl mr-4'>
+      <div className=' flex text-center justify-center text-2xl mr-4 mb-4 '>
           {/* Llama a la función scrollToSection con el ID de la sección deseada al hacer clic en el enlace */}
           <a className=' animate-fade animate-once animate-delay-[4000ms] ' href="#experience" onClick={(event) => scrollToSection(event, 'about')}>
-            <FiChevronsDown className='text-5xl ' />
+            <FiChevronsDown className='text-5xl  ' />
           </a> </div>
           <section id="about"> 
       <Aboutme/>    </section>
+
+      <div className=' flex text-center justify-center text-2xl mr-4'>
+      <a className='center ' href="#Contact" onClick={(event) => scrollToSection(event, 'Contact')}>
+            <FiChevronsDown className='text-5xl pt-4 ' />
+          </a></div>
+
+      <section id="Contact"> 
+      <Contact/>    </section>
+      
+      
     </div>
+    
   );
 }
 

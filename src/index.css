@@ -12,13 +12,13 @@
 }
 #root{
   max-width: 100%;
-  width: 100%
+  width:99%
 
 }
 .separator{
   width:0;
   height:0;
-  border-right: 100vw solid transparent;
+  border-right: 99vw solid transparent;
   border-bottom: 5.9vw solid rgb(2,183,175);
   margin-top: -5.9vw}
 

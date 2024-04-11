@@ -25,7 +25,7 @@ function projects() {
 
   return (
     <div className={`w-full flex flex-col justify-center items-center`}>
-      <h3 className='py-8 text-4xl'> Tech Skills </h3>
+      <h3 className='py-8 text-4xl font-bold'> Tech Skills </h3>
       <div className='w-1/2 flex-row justify-center items-center pb-5  animate-pulse animate-ease-linear'>
         <h4>Front End</h4>
         <div className='py-10 flex gap-4 justify-center'>
