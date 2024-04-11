@@ -2,7 +2,7 @@ import React from 'react'
 import video from "../assets/videos/video.mp4"
 import charlie from "../assets/videos/CharlieApp.mp4"
 import artemis from "../assets/videos/Artemis.mp4"
-import disney from "../assets/videos/disney.mp4"
+import disney from "../assets/videos/Disney.mp4"
 import { FiChevronsDown } from "react-icons/fi";
 function Prueba() {
   function scrollToSection(event, sectionId) {
