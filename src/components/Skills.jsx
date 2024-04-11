@@ -15,7 +15,7 @@ import redux from "../assets/Icons/redux.png";
 import restfulapi from "../assets/Icons/restfulapi.png";
 import sequelize from "../assets/Icons/sequelize.png";
 import tailwind from "../assets/Icons/tailwind.png";
-import { FiChevronsDown } from "react-icons/fi";
+
 
 
 function projects() {
