@@ -1,20 +1,20 @@
 
-import agile3 from "../assets/icons/agile3.png";
-import auth0 from "../assets/icons/Auth0.png";
-import css from "../assets/icons/css.png";
-import express from "../assets/icons/express.png";
-import git from "../assets/icons/git.png";
-import html from "../assets/icons/html5.png";
-import javascript from "../assets/icons/javascript.png";
-import mysql from "../assets/icons/mysql.png";
-import node from "../assets/icons/node.png";
+import agile3 from "../assets/Icons/agile3.png";
+import auth0 from "../assets/Icons/Auth0.png";
+import css from "../assets/Icons/css.png";
+import express from "../assets/Icons/express.png";
+import git from "../assets/Icons/git.png";
+import html from "../assets/Icons/html5.png";
+import javascript from "../assets/Icons/javascript.png";
+import mysql from "../assets/Icons/mysql.png";
+import node from "../assets/Icons/node.png";
 import pg from "../assets/icons/pg.png";
-import python from "../assets/icons/python.png";
-import react from "../assets/icons/react.png";
-import redux from "../assets/icons/redux.png";
-import restfulapi from "../assets/icons/restfulapi.png";
-import sequelize from "../assets/icons/sequelize.png";
-import tailwind from "../assets/icons/tailwind.png";
+import python from "../assets/Icons/python.png";
+import react from "../assets/Icons/react.png";
+import redux from "../assets/Icons/redux.png";
+import restfulapi from "../assets/Icons/restfulapi.png";
+import sequelize from "../assets/Icons/sequelize.png";
+import tailwind from "../assets/Icons/tailwind.png";
 import { FiChevronsDown } from "react-icons/fi";
 
 
