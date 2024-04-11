@@ -3,7 +3,7 @@ import { FiChevronsDown } from "react-icons/fi";
 import './App.css';
 import Prueba from './components/Prueba';
 import Projects from './components/Skills';
-import Nav from './components/nav';
+import Nav from './components/Nav';
 import video from "./assets/videos/video.mp4";
 import Aboutme from './components/Aboutme';
 import Skills from './components/Skills';
