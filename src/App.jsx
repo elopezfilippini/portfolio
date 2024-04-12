@@ -23,7 +23,7 @@ function scrollToSection(event, sectionId) {
 
 function App() {
   return (
-<div class=' m:max-w-none m:w-full l:max-w-none l:w-full 2xl:max-w-none xl:max-w-none xl:w-full'>
+<div class='sm:h-[100px] m:max-w-none m:w-full l:max-w-none l:w-full 2xl:max-w-none xl:max-w-none xl:w-full'>
 
       <div className='items-end '>
         <Nav />
@@ -44,40 +44,44 @@ function App() {
         </div>
       </div>
       <div className='h-[500px]'></div>
+    
       <div className='separator'></div>
 
-
       <section id="experience"> 
-        <Prueba/>
-      </section>
-      <div className='pt-5 flex text-center justify-center text-2xl mr-4'>
-          {/* Llama a la función scrollToSection con el ID de la sección deseada al hacer clic en el enlace */}
-          <a className=' animate-fade animate-once animate-delay-[4000ms] ' href="#experience" onClick={(event) => scrollToSection(event, 'skills')}>
-            <FiChevronsDown className='text-5xl ' />
-          </a> </div>
-      <section id="skills"> 
-        <Skills/>
-      </section>
-      <div className=' flex text-center justify-center text-2xl mr-4 mb-4 '>
-          {/* Llama a la función scrollToSection con el ID de la sección deseada al hacer clic en el enlace */}
-          <a className=' animate-fade animate-once animate-delay-[4000ms] ' href="#experience" onClick={(event) => scrollToSection(event, 'about')}>
-            <FiChevronsDown className='text-5xl  ' />
-          </a> </div>
-          <section id="about"> 
-      <Aboutme/>    </section>
+  <Prueba/>
+</section>
+<div className='pt-5 flex text-center justify-center text-2xl mr-4'>
+    {/* Llama a la función scrollToSection con el ID de la sección deseada al hacer clic en el enlace */}
+    <a className=' animate-fade animate-once animate-delay-[4000ms] ' href="#experience" onClick={(event) => scrollToSection(event, 'skills')}>
+      <FiChevronsDown className='text-5xl ' />
+    </a> </div>
+    <section id="skills">  <Skills/>
+</section>
+<div className=' flex text-center justify-center text-2xl mr-4 mb-4 '>
+    {/* Llama a la función scrollToSection con el ID de la sección deseada al hacer clic en el enlace */}
+    <a className=' animate-fade animate-once animate-delay-[4000ms] ' href="#experience" onClick={(event) => scrollToSection(event, 'about')}>
+      <FiChevronsDown className='text-5xl  ' />
+    </a> </div>
+    <section id="about"> 
+<Aboutme/>    </section>
 
-      <div className=' flex text-center justify-center text-2xl mr-4'>
-      <a className='center ' href="#Contact" onClick={(event) => scrollToSection(event, 'Contact')}>
-            <FiChevronsDown className='text-5xl pt-4 ' />
-          </a></div>
+<div className=' flex text-center justify-center text-2xl mr-4'>
+<a className='center ' href="#Contact" onClick={(event) => scrollToSection(event, 'Contact')}>
+      <FiChevronsDown className='text-5xl pt-4 ' />
+    </a></div>
 
-      <section id="Contact"> 
-      <Contact/>    </section>
-      
-      
+<section id="Contact"> 
+<Contact/>    </section> 
+
+
     </div>
     
   );
 }
 
 export default App;
+
+
+
+// {/* 
+

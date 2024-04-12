@@ -7,12 +7,12 @@
   --typewriterSpeed: 1s;
   --typewriterCharacters: 19; 
   --root-width: 100%; 
-  --root-max-width: 100%; /* Establece el max-width del :root al 100% */
+  --root-max-width: 90%; /* Establece el max-width del :root al 100% */
   
 }
 #root{
   max-width: 100%;
-  width:99%
+  width:100%
 
 }
 .separator{

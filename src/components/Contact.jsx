@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import github from '../assets/contact/github.png';
-import linkedin from '../assets/contact/linkedin.png';
+
 
 export const Contact = () => {
   const form = useRef();
@@ -28,7 +27,7 @@ export const Contact = () => {
   return (
 
     <div>
-      <h3 className='py-8 text-4xl'>Contact me</h3>
+      <h3 className='py-8 text-4xl font-bold'>Contact me</h3>
     
 
       <form className='flex flex-col items-center border-gray-500' ref={form} onSubmit={sendEmail}>
@@ -37,7 +36,7 @@ export const Contact = () => {
         <label className='w-1/4 mt-2'>Email:</label>
         <input className="w-42 border border-black outline-none rounded-xl mt-2 " type="email" name="from_name" />
         <label className="w-1/4 mt-2">Message:</label>
-        <textarea className=" w-1/4   h-40 border border-black outline-none rounded-xl mt-2"name="message" />
+        <textarea className="sm:w-full md:w-1/4   h-40 border border-black outline-none rounded-xl mt-2"name="message" />
        
         <button className="bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded mt-10 mb-4" type="submit">Send</button>
 

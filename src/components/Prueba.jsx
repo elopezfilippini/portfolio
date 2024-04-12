@@ -25,7 +25,7 @@ function Prueba() {
 
             <div className='   flex flex-col shadow-2xl  '>
             <div className='min-h-[560px]  flex flex-col  border md:px-16 h-auto w-[400px] border-gray-500 rounded-lg items-center'>
-    <h3 className='text-center pb-6 py-4  text-2xl font-bold	text-zinc-200	'>Dog api</h3>
+    <h3 className='text-center pb-6 py-4  text-2xl font-bold	text-zinc-200	'>Dogs api</h3>
     <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
    <video className="opacity-100 rounded-md" src={video} autoPlay loop playsInline muted />
     </div>
