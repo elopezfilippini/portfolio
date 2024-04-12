@@ -6,13 +6,13 @@ import cv from '../assets/contact/cv.png';
 function Nav() {
   return (
     <div className=' flex gap-2 justify-end items-center animate-fade animate-once animate-delay-[3500ms] animate-ease-linear'>
-    <a href="#skills" className='border border-bg-custom rounded-lg p-2 m-2 hover:bg-custom'>
+    <a href="#skills" className='border border-bg-custom rounded-lg p-2 m-2 hover:bg-custom hover:text-white hover:font-bold	'>
       Skills
     </a>
-    <a href="#experience" className='border border-bg-custom rounded-lg p-2 m-2 hover:bg-custom'>
+    <a href="#experience" className='border border-bg-custom rounded-lg p-2 m-2 hover:bg-custom hover:text-white hover:font-bold'>
       Projects
     </a>
-    <a href="#about" className='border border-bg-custom rounded-lg p-2 m-2 hover:bg-custom'>
+    <a href="#about" className='border border-bg-custom rounded-lg p-2 m-2 hover:bg-custom hover:text-white hover:font-bold'>
       About
     </a>
         <a href="https://www.github.com/elopezfilippini">

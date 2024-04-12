@@ -17,7 +17,7 @@ function Prueba() {
   }
   return (
     <div class='w-full  '>
-            <h3 className='text-center bg-custom pb-10 text-4xl font-bold	'>My Projects</h3>
+            <h3 className='text-center bg-custom pb-10 text-4xl font-bold	text-white'>My Projects</h3>
             <div class="bg-custom w-full text-center flex flex-wrap justify-center gap-4 pb-1 0  ">
            
 
@@ -29,8 +29,8 @@ function Prueba() {
     <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
    <video className="opacity-100 rounded-md" src={video} autoPlay loop playsInline muted />
     </div>
-      <h3 className='py-8'>An interactive app to find information about dogs and create new races. You can search dogs, filter them by race, and sort them by weight or name. </h3>
-      <h3 className='italic'>it usually takes 30 seconds to load all the information.</h3>
+      <h3 className='py-8 text-white'>An interactive app to find information about dogs and create new races. You can search dogs, filter them by race, and sort them by weight or name. </h3>
+      <h3 className='italic text-white'>it usually takes 30 seconds to load all the information.</h3>
       <div className="flex ">
         <h4 className='text-xs border border-grey-400 mx-auto my-4 bg-slate-100 rounded-lg p-2'>React</h4>
     
@@ -59,7 +59,7 @@ function Prueba() {
     <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
       <video className="opacity-100 rounded-md" src={disney} autoPlay loop playsInline muted />
     </div>
-      <h3 className='py-8'>A clone of disney series and movies page using a responsive style from tailwind css.</h3>
+      <h3 className='py-8 text-white'>A clone of disney series and movies page using a responsive style from tailwind css.</h3>
       
       <div className="flex pt-24
       ">
@@ -83,7 +83,7 @@ function Prueba() {
     <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
       <video className="opacity-100 rounded-md" src={artemis} autoPlay loop playsInline muted />
     </div>
-      <h3 className='py-8'>A gallery of Artemis (a child artist) pictures divided by categories and shown in a responsive way with slides </h3>
+      <h3 className='py-8 text-white'>A gallery of Artemis (a child artist) pictures divided by categories and shown in a responsive way with slides</h3>
       <h3 className='italic'></h3>
       <div className="flex pt-24
       ">
@@ -111,7 +111,7 @@ function Prueba() {
     <div id="pepe" className='  w-3/4 flex justify-center rounded-lg hover:scale-150 transition-all duration-200 cursor-pointer ease-in-out shadow-xl shadow-slate-700'>
       <video className="opacity-100 rounded-md" src={charlie} autoPlay loop playsInline muted />
     </div>
-      <h3 className='py-8'>An app designed for an entrepreneurial company to streamline the bar collection process using QR codes. The app features different views tailored to specific roles. </h3>
+      <h3 className='py-8 text-white'>An app designed for an entrepreneurial company to streamline the bar collection process using QR codes. The app features different views tailored to specific roles. </h3>
       <h3 className='italic'></h3>
       <div className="flex pt-6
       ">
